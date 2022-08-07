@@ -495,6 +495,7 @@ body {
 
 .footer-join {
   margin-left: 70px;
+  margin-right: 93px;
 }
 
 .join-title {
@@ -523,6 +524,75 @@ body {
 .social-list-link-dark-theme:hover,
 .social-list-link-dark-theme:focus {
   background-color: var(--accent-color);
+}
+
+.subs-footer {
+  align-items: center;
+}
+
+.subs-footer-slogan {
+  margin-bottom: 20px;
+  font-weight: var(--primary-font-weight);
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--thirty-text-color);
+}
+
+.email-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  color: var(--thirty-text-color);
+
+  transition: border-color var(--transition-dur-tf);
+}
+
+.email-input:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+}
+
+.form-subs-footer {
+  display: flex;
+}
+
+.btn-subs {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color var(--transition-dur-tf);
+}
+
+.btn-subs-icon {
+  fill: var(--thirty-bcg);
+}
+
+.btn-subs:hover,
+.btn-subs:focus {
+  background-color: #188ce8;
 }
 
 /* =====================================OUR PORTFOLIO ===================================== */
@@ -676,6 +746,7 @@ body {
 
   width: 528px;
   height: 581px;
+  padding: 40px;
 
   background: var(--thirty-bcg);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -708,4 +779,43 @@ body {
 
 .menu-link-current {
   color: var(--accent-color);
+}
+
+/* =====================================MODAL FORM ===================================== */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-field {
+  margin-bottom: 10px;
+}
+
+.modal-form-slogan {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.modal-form-field-name {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-text-color);
+  margin-bottom: 4px;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+
+  padding-left: 42px;
 }
