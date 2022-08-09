@@ -788,6 +788,10 @@ body {
   margin-bottom: 10px;
 }
 
+.modal-form-field-marg {
+  margin-bottom: 20px;
+}
+
 .modal-form-slogan {
   font-weight: 700;
   font-size: 20px;
@@ -871,7 +875,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
   margin-bottom: 30px;
 
   font-weight: 400;
